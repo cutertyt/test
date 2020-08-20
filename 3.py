@@ -10,10 +10,10 @@ def isPrime(n):
 
 lower = int(input())
 upper = int(input())
-num=[]
+nume=[]
 for i in range(lower,upper+1):
     if i == 2:
-        num.append(i)
+        nume.append(i)
     if i > 2 and isPrime(i):
-        num.append(i)
-print(num)
+        nume.append(i)
+print(nume)
