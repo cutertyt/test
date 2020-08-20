@@ -17,3 +17,4 @@ for i in range(lower,upper+1):
     if i > 2 and isPrime(i):
         nume.append(i)
 print(nume)
+
